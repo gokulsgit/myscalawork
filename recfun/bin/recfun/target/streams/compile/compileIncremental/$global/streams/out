@@ -1,0 +1,116 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(C:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\BalanceSuite.scala, C:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\CountChangeSuite.scala, C:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\PascalSuite.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(C:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\BalanceSuite.scala, C:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\CountChangeSuite.scala, C:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\PascalSuite.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\BalanceSuite.scala, C:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\CountChangeSuite.scala, C:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\PascalSuite.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(C:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\BalanceSuite.scala, C:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\CountChangeSuite.scala, C:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\PascalSuite.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 3 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 3 Scala sources to C:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\target\scala-2.10\classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.15:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.15:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 22e337a1, interfacing (CompilerInterface) with Scala compiler version 2.10.6[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	C:\Program Files\Java\jre1.8.0_131\lib\resources.jar;C:\Program Files\Java\jre1.8.0_131\lib\rt.jar;C:\Program Files\Java\jre1.8.0_131\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_131\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_131\lib\jce.jar;C:\Program Files\Java\jre1.8.0_131\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_131\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_131\classes;C:\Users\gokul.surapureddy\.sbt\boot\scala-2.10.6\lib\scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	C:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\target\scala-2.10\classes[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\BalanceSuite.scala:3: object scalatest is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalatest.FunSuite[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\BalanceSuite.scala:6: object junit is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.junit.runner.RunWith[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\BalanceSuite.scala:7: object scalatest is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalatest.junit.JUnitRunner[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\BalanceSuite.scala:10: not found: type FunSuite[0m
+[0m[[31merror[0m] [0mclass BalanceSuite extends FunSuite {[0m
+[0m[[31merror[0m] [0m                           ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\BalanceSuite.scala:9: not found: type RunWith[0m
+[0m[[31merror[0m] [0m@RunWith(classOf[JUnitRunner])[0m
+[0m[[31merror[0m] [0m ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\BalanceSuite.scala:11: not found: value Main[0m
+[0m[[31merror[0m] [0m  import Main.balance[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\BalanceSuite.scala:13: not found: value test[0m
+[0m[[31merror[0m] [0m  test("balance: '(if (zero? x) max (/ 1 x))' is balanced") {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\BalanceSuite.scala:17: not found: value test[0m
+[0m[[31merror[0m] [0m  test("balance: 'I told him ...' is balanced") {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\BalanceSuite.scala:21: not found: value test[0m
+[0m[[31merror[0m] [0m  test("balance: ':-)' is unbalanced") {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\BalanceSuite.scala:25: not found: value test[0m
+[0m[[31merror[0m] [0m  test("balance: counting is not enough") {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\CountChangeSuite.scala:3: object scalatest is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalatest.FunSuite[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\CountChangeSuite.scala:6: object junit is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.junit.runner.RunWith[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\CountChangeSuite.scala:7: object scalatest is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalatest.junit.JUnitRunner[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\CountChangeSuite.scala:10: not found: type FunSuite[0m
+[0m[[31merror[0m] [0mclass CountChangeSuite extends FunSuite {[0m
+[0m[[31merror[0m] [0m                               ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\CountChangeSuite.scala:9: not found: type RunWith[0m
+[0m[[31merror[0m] [0m@RunWith(classOf[JUnitRunner])[0m
+[0m[[31merror[0m] [0m ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\CountChangeSuite.scala:11: not found: value Main[0m
+[0m[[31merror[0m] [0m  import Main.countChange[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\CountChangeSuite.scala:12: not found: value test[0m
+[0m[[31merror[0m] [0m  test("countChange: example given in instructions") {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\CountChangeSuite.scala:16: not found: value test[0m
+[0m[[31merror[0m] [0m  test("countChange: sorted CHF") {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\CountChangeSuite.scala:20: not found: value test[0m
+[0m[[31merror[0m] [0m  test("countChange: no pennies") {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\CountChangeSuite.scala:24: not found: value test[0m
+[0m[[31merror[0m] [0m  test("countChange: unsorted CHF") {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\PascalSuite.scala:3: object scalatest is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalatest.FunSuite[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\PascalSuite.scala:6: object junit is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.junit.runner.RunWith[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\PascalSuite.scala:7: object scalatest is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalatest.junit.JUnitRunner[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\PascalSuite.scala:10: not found: type FunSuite[0m
+[0m[[31merror[0m] [0mclass PascalSuite extends FunSuite {[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\PascalSuite.scala:9: not found: type RunWith[0m
+[0m[[31merror[0m] [0m@RunWith(classOf[JUnitRunner])[0m
+[0m[[31merror[0m] [0m ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\PascalSuite.scala:11: not found: value Main[0m
+[0m[[31merror[0m] [0m  import Main.pascal[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\PascalSuite.scala:12: not found: value test[0m
+[0m[[31merror[0m] [0m    test("pascal: col=0,row=2") {[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\PascalSuite.scala:16: not found: value test[0m
+[0m[[31merror[0m] [0m    test("pascal: col=1,row=2") {[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0mC:\Users\gokul.surapureddy\Desktop\coursera-assignments\recfun\src\test\scala\recfun\PascalSuite.scala:20: not found: value test[0m
+[0m[[31merror[0m] [0m    test("pascal: col=1,row=3") {[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m29 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m
